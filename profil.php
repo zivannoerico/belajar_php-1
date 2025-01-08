@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <nav>
+        fitur navbar
+    </nav>
 </body>
 </html>
