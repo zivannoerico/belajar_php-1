@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        fitur navbar
+        mari kita coba belajar pull github
     </nav>
 </body>
 </html>
