@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        mari kita coba belajar pull github
+        mari kita coba belajar pull githubbbb
     </nav>
 </body>
 </html>
