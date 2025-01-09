@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        mari kita coba belajar pull githubbbb
+        ayo kita blajar php
     </nav>
 </body>
 </html>
