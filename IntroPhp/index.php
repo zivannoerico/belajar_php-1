@@ -20,6 +20,7 @@ $var1 = 1250; // pada baris ini tipe data dari $var1 adalah integer
 // cara mengoutputkan nilai dalam variabel
 // 1. Menggunakan petik 2 ( " " )
 echo "Nilai dari variabel var1 adalah $var1 <br/>";
+
 // 2. dengan menggunakan operator penghubung
 echo "Nilai dari Variabel var1 adalah ".$var1."<br/>";
 echo 'Nilai dari variabel var1 adalah '.number_format($var1,0,',','.'). '<br/>';
@@ -27,6 +28,23 @@ echo 'Nilai dari variabel var1 adalah '.number_format($var1,0,',','.'). '<br/>';
 // operator penghubung c++  &
 
 // $var1 = 'Pengembangan Perangkat Lunak dan Gim'; // tipe data string
+
+
+
+// standarisasi penamaan variabel 
+// camel case
+$varSatuPplg; // var Satu Pplg
+
+// snake case
+$var_satu_pplg;
+
+// KONSTANTA
+
+define("PHI", 3.14);
+
+echo "luas lingkaran dengan jari - jari = 7 adalah ".PHI*(7*7); 
+
+
 
 
 
