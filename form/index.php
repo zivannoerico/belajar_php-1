@@ -16,7 +16,7 @@
     </style>
 </head>
 <body>
-    <form action="" method="">
+    <form action="proses.php" method="POST">
         <table border=1 style="border-collapse : collapse; width : 50%; ">
             <tr>
                 <td>NIS </td>
@@ -74,12 +74,23 @@
                 <td>:</td>
                 <td>
                     <input type="radio" name="gender" id="" value="L" > Laki - Laki 
-                    <input type="radio" name="gender" id="" value="P"> Perempuan 
+                    <input type="radio" name="gender" id="" value="P" > Perempuan 
+                </td>
+            </tr>
+            <tr>
+            <td>Ekskul</td>
+            <td>:</td>
+                <td>
+                    <input type="checkbox" name="ekskul[]" id="" value="PA"> Pencinta Alam <br/>
+                    <input type="checkbox" name="ekskul[]" id="" value="EC"> Englsh Club <br/>
+                    <input type="checkbox" name="ekskul[]" id="" value="PMR"> Palang Merah Remaja <br/>
+                    <input type="checkbox" name="ekskul[]" id="" value="Futsal"> Futsal<br/>
                 </td>
             </tr>
             <tr>
                 <td colspan="3" style="text-align : center;" >
-                    <input type="submit" value="Inputkan Data">
+                    <input type="submit" value="Inputkan Data" name="btnDataSiswa">
+                    <!-- <button type=submit></button> -->
                 </td>
                 
             </tr> 
